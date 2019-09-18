@@ -20,6 +20,8 @@ const size_t NumFirmwareUpdateModules = 1;
 #define DEFAULT_BOARD_TYPE BoardType::RADDS_15
 #define ELECTRONICS "RADDS"
 
+#define SUPPORT_TMC2130     1
+
 #define SUPPORT_INKJET		0					// set nonzero to support inkjet control
 #define SUPPORT_ROLAND		0					// set nonzero to support Roland mill
 #define SUPPORT_SCANNER		0					// set nonzero to support FreeLSS scanners

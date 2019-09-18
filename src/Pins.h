@@ -84,6 +84,10 @@
 # define SUPPORT_TMC51xx		0
 #endif
 
+#ifndef SUPPORT_TMC2130
+# define SUPPORT_TMC2130		0
+#endif
+
 #ifndef SUPPORT_CAN_EXPANSION
 # define SUPPORT_CAN_EXPANSION	0
 #endif
